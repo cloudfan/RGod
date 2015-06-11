@@ -15,11 +15,11 @@ public class Backend {
 	public static void DownloadLists(){
 		    try {
 		    	
-		    	URL as = new URL("http://www.fragbashers.net/smiteapp/assassin.txt");
-		    	URL gd = new URL("http://www.fragbashers.net/smiteapp/guardian.txt");
-		    	URL hn = new URL("http://www.fragbashers.net/smiteapp/hunter.txt");
-		    	URL mg = new URL("http://www.fragbashers.net/smiteapp/mage.txt");
-		    	URL wr = new URL("http://www.fragbashers.net/smiteapp/warrior.txt");
+		    	URL as = new URL("http://www.fragbashers.net/smite/assassin.txt");
+		    	URL gd = new URL("http://www.fragbashers.net/smite/guardian.txt");
+		    	URL hn = new URL("http://www.fragbashers.net/smite/hunter.txt");
+		    	URL mg = new URL("http://www.fragbashers.net/smite/mage.txt");
+		    	URL wr = new URL("http://www.fragbashers.net/smite/warrior.txt");
 		    	
 		    	FileUtils.copyURLToFile(as, new File("C:/temp/assassin.txt"));
 		    	FileUtils.copyURLToFile(gd, new File("C:/temp/guardian.txt"));
